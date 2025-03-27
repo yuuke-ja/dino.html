@@ -202,7 +202,7 @@ function hitCheck() {
 
 document.onkeydown = function(e) {
     if(e.key === ' ' && game.dino.moveY === 0) {
-        game.dino.moveY = -400;
+        game.dino.moveY = -9999999999999999999999999;
     }
     if(e.key === 'Enter' && game.isGameOver === true) {
         init();
